@@ -8,7 +8,7 @@
   
   <meta name="author" content="USER_NAME">
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>SupportMod - PACKAGE_NAME.jl</title>
+  <title>Main - PACKAGE_NAME.jl</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
@@ -18,9 +18,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "SupportMod";
-    var mkdocs_page_input_path = "other.md";
-    var mkdocs_page_url = "/other/";
+    var mkdocs_page_name = "Main";
+    var mkdocs_page_input_path = "main.md";
+    var mkdocs_page_url = "/main/";
   </script>
   
   <script src="../js/jquery-2.1.1.min.js"></script>
@@ -53,20 +53,26 @@
     <a class="" href="..">Home</a>
 	    </li>
           
-            <li class="toctree-l1">
-		
-    <a class="" href="../main/">Main</a>
-	    </li>
-          
             <li class="toctree-l1 current">
 		
-    <a class="current" href="./">SupportMod</a>
+    <a class="current" href="./">Main</a>
     <ul class="subnav">
             
-    <li class="toctree-l2"><a href="#other">Other</a></li>
+    <li class="toctree-l2"><a href="#main-module-documentation">Main Module Documentation</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#the-guts-of-the-package">The guts of the package</a></li>
+        
+        </ul>
     
 
     </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../other/">SupportMod</a>
 	    </li>
           
         </ul>
@@ -91,10 +97,10 @@
     
       
     
-    <li>SupportMod</li>
+    <li>Main</li>
     <li class="wy-breadcrumbs-aside">
       
-        <a href="https://github.com/USER_NAME/PACKAGE_NAME.jl/edit/master/docs/other.md"
+        <a href="https://github.com/USER_NAME/PACKAGE_NAME.jl/edit/master/docs/main.md"
           class="icon icon-github"> Edit on GitHub</a>
       
     </li>
@@ -104,17 +110,23 @@
           <div role="main">
             <div class="section">
               
-                <p><a id='Other-1'></a></p>
-<h1 id="other">Other</h1>
-<p>This is the documentation for the other things.  It is primarily used by the functions in <a href="..#DocTestPkg-Documentation-1">DocTestPkg Documentation</a></p>
-<p><a id='SupportMod.helper_func1' href='#SupportMod.helper_func1'>#</a>
-<strong><code>SupportMod.helper_func1</code></strong> &mdash; <em>Function</em>.</p>
-<p>This is a helper function</p>
-<p>This is a new paragraph</p>
-<p>Inputs:</p>
-<pre><code>x: some value
-y: an Array
-</code></pre>
+                <p><a id='Main-Module-Documentation-1'></a></p>
+<h1 id="main-module-documentation">Main Module Documentation</h1>
+<p>This is the documentation for the main user-facing module</p>
+<p><a id='The-guts-of-the-package-1'></a></p>
+<h2 id="the-guts-of-the-package">The guts of the package</h2>
+<p><a id='DocTestPkg.Equation' href='#DocTestPkg.Equation'>#</a>
+<strong><code>DocTestPkg.Equation</code></strong> &mdash; <em>Type</em>.</p>
+<p>Type holding all data for an instance of an equation</p>
+<p><a id='DocTestPkg.Equation-Tuple{Integer,Integer,Integer}' href='#DocTestPkg.Equation-Tuple{Integer,Integer,Integer}'>#</a>
+<strong><code>DocTestPkg.Equation</code></strong> &mdash; <em>Method</em>.</p>
+<p>Outer constructor for <a href="./#DocTestPkg.Equation"><code>Equation</code></a></p>
+<p><a id='DocTestPkg.calcIt-Tuple{Integer}' href='#DocTestPkg.calcIt-Tuple{Integer}'>#</a>
+<strong><code>DocTestPkg.calcIt</code></strong> &mdash; <em>Method</em>.</p>
+<p>This function calculates something</p>
+<p><a id='DocTestPkg.func-Tuple{Any}' href='#DocTestPkg.func-Tuple{Any}'>#</a>
+<strong><code>DocTestPkg.func</code></strong> &mdash; <em>Method</em>.</p>
+<p>Returns double the number <code>x</code> plus <code>1</code></p>
               
             </div>
           </div>
@@ -122,8 +134,10 @@ y: an Array
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
+        <a href="../other/" class="btn btn-neutral float-right" title="SupportMod">Next <span class="icon icon-circle-arrow-right"></span></a>
       
-        <a href="../main/" class="btn btn-neutral" title="Main"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+        <a href=".." class="btn btn-neutral" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -151,8 +165,10 @@ y: an Array
           <a href="https://github.com/USER_NAME/PACKAGE_NAME.jl" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
-        <span><a href="../main/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
       
+      
+        <span style="margin-left: 15px"><a href="../other/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>

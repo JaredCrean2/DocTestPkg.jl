@@ -2,17 +2,27 @@
     "docs": [
         {
             "location": "/", 
-            "text": "DocTestPkg Documentation\n\n\nWelcome to DocTestPkg documentation\n\n\n\n\nThe guts of the package\n\n\n#\n\n\nDocTestPkg.Equation\n \n \nType\n.\n\n\nType holding all data for an instance of an equation\n\n\n#\n\n\nDocTestPkg.Equation\n \n \nMethod\n.\n\n\nOuter constructor for \nEquation\n\n\n#\n\n\nDocTestPkg.calcIt\n \n \nMethod\n.\n\n\nThis function calculates something\n\n\n#\n\n\nDocTestPkg.func\n \n \nMethod\n.\n\n\nReturns double the number \nx\n plus \n1\n\n\nPlease see the \nDocTestPkg Documentation\n\n\nAlso please re-read \nEquation\n documentation", 
+            "text": "DocTestPkg Documentation\n\n\nWelcome to DocTestPkg documentation\n\n\nThis is the index\n\n\n\n\nDocTestPkg.Equation\n\n\nDocTestPkg.Equation\n\n\nDocTestPkg.calcIt\n\n\nDocTestPkg.func\n\n\nSupportMod.helper_func1\n\n\n\n\nThis is the contents\n\n\n\n\nMain Module Documentation\n\n\nThe guts of the package\n\n\n\n\n\n\nOther\n\n\nDocTestPkg Documentation\n\n\n\n\nPlease see the \nDocTestPkg Documentation\n\n\nAlso please re-read \nEquation\n documentation", 
             "title": "Home"
         }, 
         {
             "location": "/#doctestpkg-documentation", 
-            "text": "Welcome to DocTestPkg documentation", 
+            "text": "Welcome to DocTestPkg documentation  This is the index   DocTestPkg.Equation  DocTestPkg.Equation  DocTestPkg.calcIt  DocTestPkg.func  SupportMod.helper_func1   This is the contents   Main Module Documentation  The guts of the package    Other  DocTestPkg Documentation   Please see the  DocTestPkg Documentation  Also please re-read  Equation  documentation", 
             "title": "DocTestPkg Documentation"
         }, 
         {
-            "location": "/#the-guts-of-the-package", 
-            "text": "#  DocTestPkg.Equation     Type .  Type holding all data for an instance of an equation  #  DocTestPkg.Equation     Method .  Outer constructor for  Equation  #  DocTestPkg.calcIt     Method .  This function calculates something  #  DocTestPkg.func     Method .  Returns double the number  x  plus  1  Please see the  DocTestPkg Documentation  Also please re-read  Equation  documentation", 
+            "location": "/main/", 
+            "text": "Main Module Documentation\n\n\nThis is the documentation for the main user-facing module\n\n\n\n\nThe guts of the package\n\n\n#\n\n\nDocTestPkg.Equation\n \n \nType\n.\n\n\nType holding all data for an instance of an equation\n\n\n#\n\n\nDocTestPkg.Equation\n \n \nMethod\n.\n\n\nOuter constructor for \nEquation\n\n\n#\n\n\nDocTestPkg.calcIt\n \n \nMethod\n.\n\n\nThis function calculates something\n\n\n#\n\n\nDocTestPkg.func\n \n \nMethod\n.\n\n\nReturns double the number \nx\n plus \n1", 
+            "title": "Main"
+        }, 
+        {
+            "location": "/main/#main-module-documentation", 
+            "text": "This is the documentation for the main user-facing module", 
+            "title": "Main Module Documentation"
+        }, 
+        {
+            "location": "/main/#the-guts-of-the-package", 
+            "text": "#  DocTestPkg.Equation     Type .  Type holding all data for an instance of an equation  #  DocTestPkg.Equation     Method .  Outer constructor for  Equation  #  DocTestPkg.calcIt     Method .  This function calculates something  #  DocTestPkg.func     Method .  Returns double the number  x  plus  1", 
             "title": "The guts of the package"
         }, 
         {
