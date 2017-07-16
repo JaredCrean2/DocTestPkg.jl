@@ -8,7 +8,7 @@ makedocs(
 )
 
 deploydocs(
-  deps = Deps.pip("mkdocs", "python-markdown-math")
+  deps = Deps.pip("mkdocs", "python-markdown-math"),
   repo = "github.com/JaredCrean2/DocTestPkg.jl.git",
   julia = "0.4",
   osname = "linux",
