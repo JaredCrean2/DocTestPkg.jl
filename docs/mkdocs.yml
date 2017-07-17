@@ -22,4 +22,6 @@ docs_dir: 'build'
 
 pages:
   - Home: index.md
+  - Main: main.md
   - SupportMod: other.md
+  - Other2: other2.md

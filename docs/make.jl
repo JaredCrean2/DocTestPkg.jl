@@ -3,7 +3,9 @@ using Documenter, DocTestPkg
 makedocs(
   pages = Any[
   "home" => "index.md",
-  "Other" => "other.md"
+  "main" => "main.md",
+  "Other" => "other.md",
+  "Other2" => "other2.md"
   ]
 )
 
