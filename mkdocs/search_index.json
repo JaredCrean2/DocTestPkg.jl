@@ -2,17 +2,17 @@
     "docs": [
         {
             "location": "/", 
-            "text": "DocTestPkg Documentation\n\n\nWelcome to DocTestPkg documentation\n\n\nThis is the index\n\n\n\n\nDocTestPkg.Equation\n\n\nDocTestPkg.Equation\n\n\nDocTestPkg.calcIt\n\n\nDocTestPkg.func\n\n\nSupportMod.helper_func1\n\n\n\n\nThis is the contents\n\n\n\n\nMain Module Documentation\n\n\nThe guts of the package\n\n\n\n\n\n\nOther\n\n\nDocTestPkg Documentation\n\n\n\n\nPlease see the \nDocTestPkg Documentation\n\n\nAlso please re-read \nEquation\n documentation", 
+            "text": "DocTestPkg Documentation\n\n\nWelcome to DocTestPkg documentation\n\n\nThis is the index\n\n\n\n\nDocTestPkg.Equation\n\n\nDocTestPkg.Equation\n\n\nDocTestPkg.calcIt\n\n\nDocTestPkg.func\n\n\nSupportMod.helper_func1\n\n\n\n\nThis is the contents\n\n\n\n\nMore docs go here\n\n\nMain Module Documentation\n\n\nOther\n\n\nDocTestPkg Documentation\n\n\n\n\nPlease see the \nDocTestPkg Documentation\n\n\nAlso please re-read \nEquation\n documentation\n\n\nHere is an equation:\n\n\n$\\frac{n!}{k!(n - k)!} = \\binom{n}{k}$\n\n\nthis is the binomial coefficient.", 
             "title": "Home"
         }, 
         {
             "location": "/#doctestpkg-documentation", 
-            "text": "Welcome to DocTestPkg documentation  This is the index   DocTestPkg.Equation  DocTestPkg.Equation  DocTestPkg.calcIt  DocTestPkg.func  SupportMod.helper_func1   This is the contents   Main Module Documentation  The guts of the package    Other  DocTestPkg Documentation   Please see the  DocTestPkg Documentation  Also please re-read  Equation  documentation", 
+            "text": "Welcome to DocTestPkg documentation  This is the index   DocTestPkg.Equation  DocTestPkg.Equation  DocTestPkg.calcIt  DocTestPkg.func  SupportMod.helper_func1   This is the contents   More docs go here  Main Module Documentation  Other  DocTestPkg Documentation   Please see the  DocTestPkg Documentation  Also please re-read  Equation  documentation  Here is an equation:  $\\frac{n!}{k!(n - k)!} = \\binom{n}{k}$  this is the binomial coefficient.", 
             "title": "DocTestPkg Documentation"
         }, 
         {
             "location": "/main/", 
-            "text": "Main Module Documentation\n\n\nThis is the documentation for the main user-facing module\n\n\n\n\nThe guts of the package\n\n\n#\n\n\nDocTestPkg.Equation\n \n \nType\n.\n\n\nType holding all data for an instance of an equation\n\n\n#\n\n\nDocTestPkg.Equation\n \n \nMethod\n.\n\n\nOuter constructor for \nEquation\n\n\n#\n\n\nDocTestPkg.calcIt\n \n \nMethod\n.\n\n\nThis function calculates something\n\n\n#\n\n\nDocTestPkg.func\n \n \nMethod\n.\n\n\nReturns double the number \nx\n plus \n1", 
+            "text": "Main Module Documentation\n\n\nThis is the documentation for the main user-facing module\n\n\n\n\nThe guts of the package\n\n\n#\n\n\nDocTestPkg.Equation\n \n \nType\n.\n\n\nType holding all data for an instance of an equation\n\n\n#\n\n\nDocTestPkg.Equation\n \n \nMethod\n.\n\n\nOuter constructor for \nEquation\n\n\n#\n\n\nDocTestPkg.calcIt\n \n \nMethod\n.\n\n\nThis function calculates something\n\n\n#\n\n\nDocTestPkg.func\n \n \nMethod\n.\n\n\nReturns double the number \nx\n plus \n1\n\n\n\n\nMore docs go here", 
             "title": "Main"
         }, 
         {
@@ -22,7 +22,7 @@
         }, 
         {
             "location": "/main/#the-guts-of-the-package", 
-            "text": "#  DocTestPkg.Equation     Type .  Type holding all data for an instance of an equation  #  DocTestPkg.Equation     Method .  Outer constructor for  Equation  #  DocTestPkg.calcIt     Method .  This function calculates something  #  DocTestPkg.func     Method .  Returns double the number  x  plus  1", 
+            "text": "#  DocTestPkg.Equation     Type .  Type holding all data for an instance of an equation  #  DocTestPkg.Equation     Method .  Outer constructor for  Equation  #  DocTestPkg.calcIt     Method .  This function calculates something  #  DocTestPkg.func     Method .  Returns double the number  x  plus  1   More docs go here", 
             "title": "The guts of the package"
         }, 
         {
@@ -34,6 +34,16 @@
             "location": "/other/#other", 
             "text": "This is the documentation for the other things.  It is primarily used by the functions in  DocTestPkg Documentation  #  SupportMod.helper_func1     Function .  This is a helper function  This is a new paragraph  Inputs:  x: some value\ny: an Array", 
             "title": "Other"
+        }, 
+        {
+            "location": "/other2/", 
+            "text": "More docs go here", 
+            "title": "Other2"
+        }, 
+        {
+            "location": "/other2/#more-docs-go-here", 
+            "text": "", 
+            "title": "More docs go here"
         }
     ]
 }
